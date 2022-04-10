@@ -36,16 +36,23 @@ public class Main {
 
         int[] e = {1, 2, 3};
         for (int i = 0; i < e.length; i++) {
-            if (e[i] % 2 != 0) {
-                System.out.print(e[0] + ", " + e[1] + ", " + e[2]);
-
+            if (e[i] % 2 != 0)
+                System.out.println(e[i] += 1);
+            else {
+                System.out.println(e[i]);
             }
 
-
         }
-    }
 
 
     }
+}
+
+
+
+
+
+
+
 
 
